@@ -5,12 +5,11 @@ from bs4 import BeautifulSoup
 import lxml.html
 import twitter
 import feedparser
-#from requests_oauthlib import OAuth1Session
 import json
 import difflib
 import os
+#config.pyに環境変数を設定している場合は読み込み
 #import config
-
 
 # ツイートに含めるハッシュタグを定義
 hash_tag = "#都市大 #プレスリリース #新聞会 @tcuprs"
